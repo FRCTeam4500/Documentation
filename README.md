@@ -6,6 +6,7 @@ With that being said, please feel free to add to the documentation.
 
 #### Method 1
 Download Obsidian for either windows or mac. Clone this repository. Open in Obsidian ("Open folder as vault")
+It is good to use Obsidian because you can see connections between the files which can build your intuition surrounding the code.
 
 #### Method 2
 Clone this repository and add ".md"/markdown files and add info their.
