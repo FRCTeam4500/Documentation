@@ -18,8 +18,50 @@
                 "source": false
               }
             }
+<<<<<<< Updated upstream
           }
         ]
+=======
+          },
+          {
+            "id": "60b98a71700da753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/Balancing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82f8182a8130c91f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/Intaking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c920a134940ab7ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/SparkMax Controllers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+>>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -85,7 +127,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Balancing.md",
+=======
+                "file": "2023/SparkMax Controllers.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +148,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Balancing.md",
+=======
+                "file": "2023/SparkMax Controllers.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +175,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Balancing.md"
+=======
+                "file": "2023/SparkMax Controllers.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -148,6 +202,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+<<<<<<< Updated upstream
   "active": "ef191167dd509ba7",
   "lastOpenFiles": [
     "2023/Joystick.md",
@@ -160,5 +215,14 @@
     "2023/Tuning PID.md",
     "[[Tuning.md",
     "roll.md"
+=======
+  "active": "c920a134940ab7ea",
+  "lastOpenFiles": [
+    "2023/Intaking.md",
+    "2023/Balancing.md",
+    "2023/SparkMax Controllers.md",
+    "README.md",
+    "2023/thing.md"
+>>>>>>> Stashed changes
   ]
 }

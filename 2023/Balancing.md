@@ -2,7 +2,11 @@ We need to balance for the 2023 season. We will be focused on balancing in auton
 
 We currently have 2 methods.
 
+<<<<<<< Updated upstream
 ## Method 1: Experimentation with Rotation Around Axes
+=======
+## Method 1: Simple, Easy
+>>>>>>> Stashed changes
 
 ### Explanation of this Method
 **gyro.getPitch():** check rotation around the x-axis.
