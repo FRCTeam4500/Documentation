@@ -2,11 +2,7 @@ We need to balance for the 2023 season. We will be focused on balancing in auton
 
 We currently have 2 methods.
 
-<<<<<<< Updated upstream
 ## Method 1: Experimentation with Rotation Around Axes
-=======
-## Method 1: Simple, Easy
->>>>>>> Stashed changes
 
 ### Explanation of this Method
 **gyro.getPitch():** check rotation around the x-axis.
@@ -83,7 +79,7 @@ Still need to adjust this code because we're thinking of making it so there's a 
 double desiredAngle = 0.0;
 
 // PID controller variables
-double kP = 0.1;
+double kP = 0.1; // Lowest val, only up from here
 double kI = 0.01;
 double kD = 0.01;
 

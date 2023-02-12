@@ -1,4 +1,4 @@
-Here is an example using Arcade Drive (forward and backward, left and right) -> drive.arcadeDrive(xSpeed, zSpeed); I have no idea why it's "z", deal with it :). Also I would not recommend using this method.
+Here is an example using Arcade Drive (forward and backward, left and right) -> drive.arcadeDrive(xSpeed, zSpeed); I have no idea why it's "z", deal with it :). Also I would not recommend using the 
 ```java
 // Initialize variables to store the readings from the gyro sensor 
 double gyroAngle = 0.0; 
