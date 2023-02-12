@@ -11,12 +11,17 @@
             "id": "737a3d5088ee66d8",
             "type": "leaf",
             "state": {
+<<<<<<< Updated upstream
               "type": "markdown",
               "state": {
                 "file": "2023/Concepts/Balancing.md",
                 "mode": "source",
                 "source": false
               }
+=======
+              "type": "graph",
+              "state": {}
+>>>>>>> Stashed changes
             }
           },
           {
@@ -146,7 +151,18 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Hardware/SparkMax Controllers.md",
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+                "file": "2023/Balancing.md",
+=======
+                "file": "2023/SparkMax Controllers.md",
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +179,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Hardware/SparkMax Controllers.md",
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+                "file": "2023/Balancing.md",
+=======
+                "file": "2023/SparkMax Controllers.md",
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +212,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< Updated upstream
               "state": {
                 "file": "2023/Hardware/SparkMax Controllers.md"
               }
+=======
+              "state": {}
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -208,7 +239,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+<<<<<<< Updated upstream
   "active": "e1379737bd08a170",
+=======
+<<<<<<< Updated upstream
+  "active": "ef191167dd509ba7",
+  "lastOpenFiles": [
+    "2023/Arcade Drive PID.md",
+    "2023/Gyro.md",
+    "2023/Balancing.md",
+    "2023/Joystick.md",
+    "2023/PID.md",
+    "README.md",
+    "Charging Station.md",
+    "2023/Tuning PID.md",
+    "[[Tuning.md",
+    "roll.md"
+=======
+  "active": "c920a134940ab7ea",
+>>>>>>> Stashed changes
   "lastOpenFiles": [
     "2023/Concepts/Balancing.md",
     "2023 Season.md",
