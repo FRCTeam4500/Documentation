@@ -20,5 +20,4 @@
 
 # Our Solution
 
-## Balancing
-![[Balancing]]
+## [[Balancing]]

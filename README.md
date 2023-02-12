@@ -1,8 +1,10 @@
 Hey Ya'll there really is no organization until the future, this is going to be a bit of a brain dump. If you want organization, we can add metadata to the files later to sort them into tables.
 
-With that being said, please feel free to add to the documentation.
+## Things to do in Addition to reading these docs
+Learn Java - Learning Core Java from W3Schools: https://www.w3schools.com/java/default.asp and Learning Functional Java from Amigoscode: https://www.youtube.com/watch?v=VRpHdSFWGPs. Also, going through any links inside of this documentation that leads to external sources (ex: we put a Limelight docs link in Vision.md). To be honest, use whatever source you want but refer to these sources to know what topics you need to learn. 
 
 ## How to add entries
+
 
 #### Method 1
 Download Obsidian for either windows or mac. Clone this repository. Open in Obsidian ("Open folder as vault")

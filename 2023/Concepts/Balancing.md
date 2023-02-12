@@ -9,10 +9,9 @@ We currently have 2 methods.
 **gyro.getRoll():** check rotation around the y-axis.
 **gyro.getYaw():** check rotation around the z-axis.
 We play around with values of getPitch(), getRoll(), and getYaw() until we find ideal value ranges for them and then we program those ranges in if-statements.
-It may be necessary to adjust the values during a competition to ensure the best performance which would require continuous testing :(
 
-### Sample Code of this Method (post-experimentation so we've determined ranges)
-The range of -2 to 2 for roll, pitch, and yaw are fake experimental values for the ranges of angles that the robot should be in
+### Sample Code of this Method 
+The range of -2 to 2 for roll, pitch, and yaw are the ranges of angles that the robot should be in
 
 ```java
 private void balance() {
@@ -26,27 +25,27 @@ private void balance() {
 		angleRoll = Math.toDegrees(gyro.getRoll());
 		angleYaw = Math.toDegrees(gyro.getYaw());
 		
-		if(anglePitch > 2 || anglePitch < -2 || angleRoll > 2 || angleRoll < -2 || angleYaw > 2 || angleYaw < -2) {
-			if (anglePitch > 2) {
-				moveFieldCentric((anglePitch - 2) / 10, 0, 0);
-			if (anglePitch < -2) {
-				moveFieldCentric(-((anglePitch - 2) / 10), 0, 0);
-			}
-			if (angleRoll > 2) {
-				moveFieldCentric(0, (angleRoll - 2) / 10, 0);
-			if (angleRoll < -2) {
-				moveFieldCentric(0, -((angleRoll - 2) / 10), 0);
-			}
-			if (angleYaw > 2) {
-				moveFieldCentric(0, 0, (angleYaw - 2) / 10);
-			if (angleYaw < -2) {
-				moveFieldCentric(0, 0, -((angleYaw - 2) / 10));
-			}
+		
+		if (anglePitch > 2) {
+			moveFieldCentric((anglePitch - 2) / 10, 0, 0);
+		}
+		if (anglePitch < -2) {
+			moveFieldCentric(-((anglePitch - 2) / 10), 0, 0);
+		}
+		if (angleRoll > 2) {
+			moveFieldCentric(0, (angleRoll - 2) / 10, 0);
+		}
+		if (angleRoll < -2) {
+			moveFieldCentric(0, -((angleRoll - 2) / 10), 0);
+		}
+		if (angleYaw > 2) {
+			moveFieldCentric(0, 0, (angleYaw - 2) / 10);
+		}
+		if (angleYaw < -2) {
+			moveFieldCentric(0, 0, -((angleYaw - 2) / 10));
 		}
 		
-		else { // If target match
-			timesEqual++;
-		}
+		timesEqual++;
 		
 		if (timesEqual > 10) { // 10 is a placeholder, if engage is secured
 			go = false;
@@ -61,7 +60,7 @@ private void balance() {
 
 This method uses [[PID]] math in order to create smooth, fast movement to target angle.
 
-### [[Arcade Drive PID]] Example
+### [[Arcade Drive PID Balancing]] Example
 It's not super ideal to use but if you want to refer to it, click it on the link above.
 
 ### Explanation of our Actual [[PID]]

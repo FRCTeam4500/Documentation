@@ -1,0 +1,2 @@
+We control a controller for the motor, not the actual motor itself.
+Also, a MotorMap is a list of IDs that correspond to a motor that has a certain function. These IDs can be changed through software such as [[PhoenixTuner]].

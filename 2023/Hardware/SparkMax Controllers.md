@@ -1,6 +1,8 @@
-## How to Program a SparkMax Controller?
+https://prod.liveshare.vsengsaas.visualstudio.com/join?3BACB9C0AB227A992CF402F12F7C572AF634## How to Program a SparkMax Controller?
 
 Programming a SparkMax controller in Java can be done using the CTRE Phoenix Framework. This framework provides an API for controlling and communicating with various CTRE products, including the SparkMax motor controllers. Here is a step by step overview of how to program a SparkMax motor controller in Java:
+
+Also, this includes SparkMaxComponent.java
 
 1.  Install the CTRE Phoenix Framework: You can download the latest version of the CTRE Phoenix Framework from the CTRE website.
 
@@ -51,8 +53,6 @@ where "desired angle" is the angle you want the motor to reach, and "counts per 
 Additionally, there are software tools such as the WPILib's SmartDashboard or CTRE's **Phoenix Tuner** that can be used to visualize the motor's position and assist with determining the desired position. These tools can also be useful for fine-tuning the motor's position control during testing and competition.
 
 ### How to use Phoenix Tuner to see motor positions
-
-Phoenix Tuner is a software tool that is used to tune and monitor various performance parameters of the REV Robotics SparkMax motor controllers. To see the position values of the motor, you will need to connect your SparkMax controller to the Phoenix Tuner software. Here are the steps to view the position values using Phoenix Tuner:
 
 1.  Connect your SparkMax controller to your computer using a USB cable. (There is usually a USB-C port on the bottom of the controller)
     
@@ -106,7 +106,7 @@ The `setIdleMode(IdleMode.kBrake)` method sets the idle mode of the arm motor. T
 
 The `setOpenLoopRampRate` method sets the maximum rate at which the output of the motor controller can change. This can be useful in certain control scenarios to prevent abrupt changes in the motor output. By setting this ramp rate, you control how quickly the motor controller can transition from one power level to another. This helps reduce the chances of damaging the motor and other components, as well as smoothing out any sudden jerks in motion. For example, if you set the ramp rate to 0.5 seconds, the motor controller will take 0.5 seconds to change its output power from 0 to 100%. The rate is specified in seconds to reach full output.
 
-`armMotor.setClosedLoopRampRate` sets the rate at which the output of the motor controller will change when in closed-loop control modes (e.g. position, velocity, and current control modes), while `armMotor.setOpenLoopRampRate` sets the rate at which the output of the motor controller will change when in open-loop control mode.
+`armMotor.setClosedLoopRampRate` sets the rate at which the output of the motor controller will change when in closed-loop control modes (e.g. position, velocity, and current control modes), while `armMotor.setOpenLoopRampRate` sets the rate at which the output of the motor controller will change when in open-loop control motor.
 - In closed-loop control modes, the motor controller receives feedback from the motor's position, velocity, or current and adjusts its output to achieve the desired value. In open-loop control mode, the motor controller simply sets the output based on the input value, without any feedback or correction.
 - The ramp rate is used to limit the rate of change of the motor output, in order to prevent excessive currents and protect the motor, gearbox, and other components. A slow ramp rate allows the motor output to change smoothly over time, reducing the risk of damage, while a fast ramp rate allows the motor to quickly reach its desired speed. The ramp rate values are typically specified in units of voltage per second.
 

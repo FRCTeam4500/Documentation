@@ -1,0 +1,1 @@
+It holds information about all the Dashboard files in the code.

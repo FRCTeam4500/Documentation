@@ -1,0 +1,1 @@
+Include all information about Swerve so all the commands and files associated with it.

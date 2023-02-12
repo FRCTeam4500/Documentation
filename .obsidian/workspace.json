@@ -8,48 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "737a3d5088ee66d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/Concepts/Balancing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60b98a71700da753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3590d7f78eb0b8a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e1379737bd08a170",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Hardware/SparkMax Controllers.md",
+                "file": "2023/Concepts/Examples/Arcade Drive PID Balancing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c7b40ce37c97e31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/Concepts/Arm.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Hardware/SparkMax Controllers.md",
+                "file": "2023/Concepts/Arm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Hardware/SparkMax Controllers.md",
+                "file": "2023/Concepts/Arm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Hardware/SparkMax Controllers.md"
+                "file": "2023/Concepts/Arm.md"
               }
             }
           }
@@ -208,17 +184,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1379737bd08a170",
+  "active": "5c7b40ce37c97e31",
   "lastOpenFiles": [
+    "2023/Concepts/Examples/Arcade Drive PID Balancing.md",
+    "2023/Concepts/Arm.md",
+    "2023/Concepts/Auto.md",
     "2023/Concepts/Balancing.md",
-    "2023 Season.md",
-    "2023/Concepts/PID.md",
-    "README.md",
+    "2023/Concepts/Constants.md",
     "2023/Concepts/Intaking.md",
-    "2023/Concepts/Tuning PID.md",
-    "2023/Hardware/Gyro.md",
-    "2023/Hardware/Joystick.md",
-    "2023/Hardware/SparkMax Controllers.md",
-    "2023/Concepts/Examples/Arcade Drive PID.md"
+    "2023/Concepts/Main.md",
+    "2023/Concepts/Vision.md",
+    "2023/Concepts/PID.md",
+    "2023/Concepts/Robot.md"
   ]
 }
