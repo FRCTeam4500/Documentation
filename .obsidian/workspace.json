@@ -1,88 +1,39 @@
 {
   "main": {
-    "id": "0a27c72f279aa6c5",
+    "id": "87c8346cde7bd6a0",
     "type": "split",
     "children": [
       {
-        "id": "1f0daf2100304869",
+        "id": "bd7125cf670a7873",
         "type": "tabs",
         "children": [
           {
-<<<<<<< HEAD
-            "id": "e1379737bd08a170",
-=======
-            "id": "75f021bd7272a613",
->>>>>>> main
+            "id": "926802ab8c742b2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "2023/Concepts/Examples/Arcade Drive PID Balancing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c7b40ce37c97e31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/Concepts/Arm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82f8182a8130c91f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/Concepts/Intaking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c920a134940ab7ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/Concepts/PID.md",
-=======
-                "file": "2023/Concepts/Balancing.md",
->>>>>>> main
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-<<<<<<< HEAD
-        ],
-        "currentTab": 1
-=======
         ]
->>>>>>> main
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "21f3e0032a3b01ac",
+    "id": "e21aee77b029cc4b",
     "type": "split",
     "children": [
       {
-        "id": "c09db9b114dd2244",
+        "id": "f11ec73fb12ca9d2",
         "type": "tabs",
         "children": [
           {
-            "id": "d3b4b1ffd4f4b7fb",
+            "id": "ac74bc4dc5376c19",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -92,7 +43,7 @@
             }
           },
           {
-            "id": "2d47ed68bbf64e95",
+            "id": "4324997a1b5677de",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -107,7 +58,7 @@
             }
           },
           {
-            "id": "15dd8ac7de2da487",
+            "id": "19fd91441ef08e3c",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -121,24 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "1b52986646e130e3",
+    "id": "854280a10af9e66a",
     "type": "split",
     "children": [
       {
-        "id": "d2616cc92cc99e47",
+        "id": "55d8c49d3e1cb5a8",
         "type": "tabs",
         "children": [
           {
-            "id": "59faf7b387ee291c",
+            "id": "d7ec6e70acff8f5d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "2023/Concepts/Arm.md",
-=======
-                "file": "2023/Concepts/Balancing.md",
->>>>>>> main
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,23 +97,19 @@
             }
           },
           {
-            "id": "0a73a260126dd9a2",
+            "id": "153b1e7791e03fa3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "2023/Concepts/Arm.md",
-=======
-                "file": "2023/Concepts/Balancing.md",
->>>>>>> main
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "cc4f241e86b36786",
+            "id": "7335dc7ec2d7090d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -177,16 +120,12 @@
             }
           },
           {
-            "id": "2090ceedbf743147",
+            "id": "0bebb540b1ad7f88",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "2023/Concepts/Arm.md"
-=======
-                "file": "2023/Concepts/Balancing.md"
->>>>>>> main
+                "file": "README.md"
               }
             }
           }
@@ -208,28 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "5c7b40ce37c97e31",
+  "active": "926802ab8c742b2e",
   "lastOpenFiles": [
-    "2023/Concepts/Examples/Arcade Drive PID Balancing.md",
-    "2023/Concepts/Arm.md",
-    "2023/Concepts/Auto.md",
-    "2023/Concepts/Balancing.md",
-    "2023/Concepts/Constants.md",
-    "2023/Concepts/Intaking.md",
-    "2023/Concepts/Main.md",
-    "2023/Concepts/Vision.md",
-    "2023/Concepts/PID.md",
-    "2023/Concepts/Robot.md"
-=======
-  "active": "75f021bd7272a613",
-  "lastOpenFiles": [
-    "2023/Hardware/Gyro.md",
+    "2023/Software/Utility/Transform3D.md",
+    "2023/Software/JSON.md",
+    "2023/Software/REVHardware.md",
     "2023 Season.md",
-    "2023/Hardware/SparkMax Controllers.md",
-    "README.md",
-    "2023/Hardware/Joystick.md",
-    "2023/Concepts/Examples/Arcade Drive PID.md"
->>>>>>> main
+    "2023/Software/VendorDeps.md",
+    "2023/Concepts/Main.md",
+    "2023/Concepts/Intaking.md",
+    "2023/Concepts/Motor.md",
+    "2023/Concepts/PID.md",
+    "2023/Concepts/Auto.md"
   ]
 }
