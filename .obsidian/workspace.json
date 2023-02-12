@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd698d1afbdcdb94",
+        "id": "349ec6c8618b1a53",
         "type": "tabs",
         "children": [
           {
-            "id": "737a3d5088ee66d8",
+            "id": "ef191167dd509ba7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "60b98a71700da753",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023/Balancing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023/Balancing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,10 +124,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023/Balancing.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -152,10 +148,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "60b98a71700da753",
+  "active": "ef191167dd509ba7",
   "lastOpenFiles": [
-    "README.md",
+    "2023/Joystick.md",
     "2023/Balancing.md",
-    "2023/thing.md"
+    "2023/PID.md",
+    "2023/Arcade Drive PID.md",
+    "README.md",
+    "Charging Station.md",
+    "2023/Gyro.md",
+    "2023/Tuning PID.md",
+    "[[Tuning.md",
+    "roll.md"
   ]
 }
