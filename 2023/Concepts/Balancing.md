@@ -118,3 +118,19 @@ while (true) {
     waitForNextIteration();
 }
 ```
+
+## Method 3: robot-centric movement
+The idea here is that when the robot is pitching,
+that means we need to move forward (or backward).
+And when the robot is rolling,
+that means we need to move left (or right).
+Then, we use `getPitch` and `getRoll` from the gyro,
+with `robotCentricMove`, and some carefully-selected constants,
+to move the robot accordingly.
+Sample code:
+```java
+	double k1,k2;
+	double pitchAngle = Math.toDegrees(gyro.getPitch());
+	double rollAngle = Math.toDegrees(gyro.getRoll());
+	robotCentricMove(pitchAngle*k1, rollAngle*k2, 0);
+```
