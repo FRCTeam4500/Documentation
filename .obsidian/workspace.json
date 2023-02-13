@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "926802ab8c742b2e",
+            "id": "5c32ca6005c96454",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2023/Hardware/CAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2023/Hardware/CAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "2023/Hardware/CAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "2023/Hardware/CAN.md"
               }
             }
           }
@@ -147,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "926802ab8c742b2e",
+  "active": "5c32ca6005c96454",
   "lastOpenFiles": [
-    "2023/Software/Utility/Transform3D.md",
+    "2023/Software/Utility/ExtendedMath.md",
+    "2023/Software/PheonixTuner.md",
+    "PDH.md",
+    "2023/Concepts/Vision.md",
+    "2023/Hardware/CAN.md",
+    "2023/Software/DriverStation.md",
     "2023/Software/JSON.md",
-    "2023/Software/REVHardware.md",
-    "2023 Season.md",
-    "2023/Software/VendorDeps.md",
-    "2023/Concepts/Main.md",
-    "2023/Concepts/Intaking.md",
-    "2023/Concepts/Motor.md",
-    "2023/Concepts/PID.md",
-    "2023/Concepts/Auto.md"
+    "2023/Software/Shuffleboard.md",
+    "2023/Hardware/RoboRio.md",
+    "2023/Concepts/Swerve.md"
   ]
 }
