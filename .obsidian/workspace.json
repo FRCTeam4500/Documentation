@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< Updated upstream
     "id": "87c8346cde7bd6a0",
     "type": "split",
     "children": [
@@ -9,11 +10,26 @@
         "children": [
           {
             "id": "5c32ca6005c96454",
+=======
+    "id": "5cce623499951140",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd02c41eb1bc85a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4b6ebd5df4744e9",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Hardware/CAN.md",
+=======
+                "file": "2023/Hardware/SparkMax Controllers.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               }
@@ -25,6 +41,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< Updated upstream
     "id": "e21aee77b029cc4b",
     "type": "split",
     "children": [
@@ -34,6 +51,17 @@
         "children": [
           {
             "id": "ac74bc4dc5376c19",
+=======
+    "id": "40e08cd17fffde70",
+    "type": "split",
+    "children": [
+      {
+        "id": "430901f6e41444d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01b5d6dae434eeeb",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +71,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "4324997a1b5677de",
+=======
+            "id": "8c4281357678e133",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +90,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "19fd91441ef08e3c",
+=======
+            "id": "5b83d7836f0699c0",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -72,6 +108,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< Updated upstream
     "id": "854280a10af9e66a",
     "type": "split",
     "children": [
@@ -81,11 +118,26 @@
         "children": [
           {
             "id": "d7ec6e70acff8f5d",
+=======
+    "id": "34808c6ab0aa3bef",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c2768252d2deb3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53a213480c0439e4",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Hardware/CAN.md",
+=======
+                "file": "2023/Hardware/SparkMax Controllers.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +149,31 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "153b1e7791e03fa3",
+=======
+            "id": "d024a8f9320d7a02",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Hardware/CAN.md",
+=======
+                "file": "2023/Hardware/SparkMax Controllers.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "7335dc7ec2d7090d",
+=======
+            "id": "37e3ed3032bad1f2",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +184,20 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "0bebb540b1ad7f88",
+=======
+            "id": "548f10a72936ff06",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023/Hardware/CAN.md"
+=======
+                "file": "2023/Hardware/SparkMax Controllers.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -147,6 +219,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< Updated upstream
   "active": "5c32ca6005c96454",
   "lastOpenFiles": [
     "2023/Software/Utility/ExtendedMath.md",
@@ -159,5 +232,11 @@
     "2023/Software/Shuffleboard.md",
     "2023/Hardware/RoboRio.md",
     "2023/Concepts/Swerve.md"
+=======
+  "active": "a4b6ebd5df4744e9",
+  "lastOpenFiles": [
+    "2023/Concepts/Balancing.md",
+    "2023/Concepts/Arm.md"
+>>>>>>> Stashed changes
   ]
 }

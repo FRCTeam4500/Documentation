@@ -1,4 +1,4 @@
-https://prod.liveshare.vsengsaas.visualstudio.com/join?3BACB9C0AB227A992CF402F12F7C572AF634## How to Program a SparkMax Controller?
+## How to Program a SparkMax Controller?
 
 Programming a SparkMax controller in Java can be done using the CTRE Phoenix Framework. This framework provides an API for controlling and communicating with various CTRE products, including the SparkMax motor controllers. Here is a step by step overview of how to program a SparkMax motor controller in Java:
 
