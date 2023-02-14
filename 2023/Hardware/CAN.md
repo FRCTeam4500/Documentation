@@ -16,3 +16,4 @@ Back Right Angle (TalonFX): 5
 Back Left Angle (TalonFX): 6
 Front Left Angle (TalonFX): 7
 Front Right Angle (TalonFX): 8
+Arm Tilt (Neo Brushless): 9
