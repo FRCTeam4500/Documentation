@@ -12,5 +12,5 @@ This year, there are a few key points to understand:
     - 1 preloaded onto each robot for a total of 3
     - 4 placed in a straight line on the far side of the charge station
     - Each alliance can choose which game piece (cone or cube) is used for each slot
-
-Due to the time taken to place and pick up, we only have enough time to either place 2 pieces or place one piece and dock on the charge station
+Due to the time taken to place and pick up, we only have enough time 
+to either place 2 pieces or place one piece and dock on the charge station

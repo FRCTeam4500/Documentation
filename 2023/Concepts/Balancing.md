@@ -15,44 +15,47 @@ The range of -2 to 2 for roll, pitch, and yaw are the ranges of angles that the 
 
 ```java
 private void balance() {
-	AHRSAngleGetterComponent gyro = new AHRSAngleGetterComponent(I2C.Port.kMXP); // Port on the RIO
-	boolean go = true;
-	double angle; // Initial angle
-	int timesEqual = 0; // Check target match in a row
-	
-	while (go) {
-		anglePitch = Math.toDegrees(gyro.getPitch());
-		angleRoll = Math.toDegrees(gyro.getRoll());
-		angleYaw = Math.toDegrees(gyro.getYaw());
-		
-		
-		if (anglePitch > 2) {
-			moveFieldCentric((anglePitch - 2) / 10, 0, 0);
-		}
-		if (anglePitch < -2) {
-			moveFieldCentric(-((anglePitch - 2) / 10), 0, 0);
-		}
-		if (angleRoll > 2) {
-			moveFieldCentric(0, (angleRoll - 2) / 10, 0);
-		}
-		if (angleRoll < -2) {
-			moveFieldCentric(0, -((angleRoll - 2) / 10), 0);
-		}
-		if (angleYaw > 2) {
-			moveFieldCentric(0, 0, (angleYaw - 2) / 10);
-		}
-		if (angleYaw < -2) {
-			moveFieldCentric(0, 0, -((angleYaw - 2) / 10));
-		}
-		
-		timesEqual++;
-		
-		if (timesEqual > 10) { // 10 is a placeholder, if engage is secured
-			go = false;
-		}
-			
-		new WaitCommand(.05); // Stops continuous running
-	}
+        AHRSAngleGetterComponent gyro = new AHRSAngleGetterComponent(I2C.Port.kMXP);
+        double anglePitch;
+        double angleRoll;
+        int timesEqualRoll = 0;
+        int timesEqualPitch = 0;
+
+        while (timesEqualRoll < 10 || timesEqualPitch < 10) {
+        anglePitch = Math.toDegrees(gyro.getPitch());
+        angleRoll = Math.toDegrees(gyro.getRoll());
+        if (false) { // Nate code
+        if (-2 < anglePitch && anglePitch < 2) {
+        timesEqualPitch++;
+        }
+        if (-2 < angleRoll && angleRoll < 2) {
+        timesEqualRoll++;
+        }
+        moveRobotCentric(-anglePitch/30, -angleRoll/30, 0);
+        } else { // Vincent Bryan code
+
+        if (anglePitch > 2) {
+        timesEqualPitch = 0;
+        moveRobotCentric((anglePitch - 2) / 10, 0, 0);
+        } else if (anglePitch < -2) {
+        timesEqualPitch = 0;
+        moveRobotCentric(-((anglePitch + 2) / 10), 0, 0);
+        } else {
+        timesEqualPitch++;
+        }
+        if (angleRoll > 2) {
+        timesEqualRoll = 0;
+        moveRobotCentric(0, (angleRoll - 2) / 10, 0);
+        } else if (angleRoll < -2) {
+        timesEqualRoll = 0;
+        moveRobotCentric(0, (angleRoll - 2) / 10, 0);
+        } else {
+        timesEqualRoll++;
+        }
+        }
+        new WaitCommand(.05); // Stops continuous running
+        }
+        }
 }
 ```
 

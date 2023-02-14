@@ -1,35 +1,19 @@
 {
   "main": {
-<<<<<<< Updated upstream
-    "id": "87c8346cde7bd6a0",
+    "id": "83aee88c29f34c93",
     "type": "split",
     "children": [
       {
-        "id": "bd7125cf670a7873",
+        "id": "10dfe3cc447e3edb",
         "type": "tabs",
         "children": [
           {
-            "id": "5c32ca6005c96454",
-=======
-    "id": "5cce623499951140",
-    "type": "split",
-    "children": [
-      {
-        "id": "fd02c41eb1bc85a5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a4b6ebd5df4744e9",
->>>>>>> Stashed changes
+            "id": "25bf151bc1194a99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "2023/Hardware/CAN.md",
-=======
-                "file": "2023/Hardware/SparkMax Controllers.md",
->>>>>>> Stashed changes
+                "file": "2023/Concepts/Constants.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,27 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< Updated upstream
-    "id": "e21aee77b029cc4b",
+    "id": "6dae13a670ea1de0",
     "type": "split",
     "children": [
       {
-        "id": "f11ec73fb12ca9d2",
+        "id": "8c3426bc15294822",
         "type": "tabs",
         "children": [
           {
-            "id": "ac74bc4dc5376c19",
-=======
-    "id": "40e08cd17fffde70",
-    "type": "split",
-    "children": [
-      {
-        "id": "430901f6e41444d5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "01b5d6dae434eeeb",
->>>>>>> Stashed changes
+            "id": "7ce5003746f30eb1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,11 +43,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "4324997a1b5677de",
-=======
-            "id": "8c4281357678e133",
->>>>>>> Stashed changes
+            "id": "db0b9b282f8da8f0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -90,11 +58,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "19fd91441ef08e3c",
-=======
-            "id": "5b83d7836f0699c0",
->>>>>>> Stashed changes
+            "id": "e8e0e737daa7e22d",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -108,36 +72,20 @@
     "width": 300
   },
   "right": {
-<<<<<<< Updated upstream
-    "id": "854280a10af9e66a",
+    "id": "57ce2cf43fd0869c",
     "type": "split",
     "children": [
       {
-        "id": "55d8c49d3e1cb5a8",
+        "id": "249e0d7a2e96a20e",
         "type": "tabs",
         "children": [
           {
-            "id": "d7ec6e70acff8f5d",
-=======
-    "id": "34808c6ab0aa3bef",
-    "type": "split",
-    "children": [
-      {
-        "id": "2c2768252d2deb3b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "53a213480c0439e4",
->>>>>>> Stashed changes
+            "id": "1bc5b05a256a96b4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "2023/Hardware/CAN.md",
-=======
-                "file": "2023/Hardware/SparkMax Controllers.md",
->>>>>>> Stashed changes
+                "file": "2023/Concepts/Constants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,31 +97,19 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "153b1e7791e03fa3",
-=======
-            "id": "d024a8f9320d7a02",
->>>>>>> Stashed changes
+            "id": "74e5cb5671e9b838",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "2023/Hardware/CAN.md",
-=======
-                "file": "2023/Hardware/SparkMax Controllers.md",
->>>>>>> Stashed changes
+                "file": "2023/Concepts/Constants.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "7335dc7ec2d7090d",
-=======
-            "id": "37e3ed3032bad1f2",
->>>>>>> Stashed changes
+            "id": "a1b43c75873899ba",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -184,20 +120,12 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "0bebb540b1ad7f88",
-=======
-            "id": "548f10a72936ff06",
->>>>>>> Stashed changes
+            "id": "42ced84245527885",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "2023/Hardware/CAN.md"
-=======
-                "file": "2023/Hardware/SparkMax Controllers.md"
->>>>>>> Stashed changes
+                "file": "2023/Concepts/Constants.md"
               }
             }
           }
@@ -219,24 +147,6 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "5c32ca6005c96454",
-  "lastOpenFiles": [
-    "2023/Software/Utility/ExtendedMath.md",
-    "2023/Software/PheonixTuner.md",
-    "PDH.md",
-    "2023/Concepts/Vision.md",
-    "2023/Hardware/CAN.md",
-    "2023/Software/DriverStation.md",
-    "2023/Software/JSON.md",
-    "2023/Software/Shuffleboard.md",
-    "2023/Hardware/RoboRio.md",
-    "2023/Concepts/Swerve.md"
-=======
-  "active": "a4b6ebd5df4744e9",
-  "lastOpenFiles": [
-    "2023/Concepts/Balancing.md",
-    "2023/Concepts/Arm.md"
->>>>>>> Stashed changes
-  ]
+  "active": "25bf151bc1194a99",
+  "lastOpenFiles": []
 }
