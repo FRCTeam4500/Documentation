@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Concepts/Constants.md",
+                "file": "2023/Concepts/Balancing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Concepts/Constants.md",
+                "file": "2023/Concepts/Balancing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Concepts/Constants.md",
+                "file": "2023/Concepts/Balancing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Concepts/Constants.md"
+                "file": "2023/Concepts/Balancing.md"
               }
             }
           }
@@ -148,5 +148,7 @@
     }
   },
   "active": "25bf151bc1194a99",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "2023/Concepts/Constants.md"
+  ]
 }

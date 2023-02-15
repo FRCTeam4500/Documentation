@@ -11,7 +11,7 @@ We currently have 2 methods.
 We play around with values of getPitch(), getRoll(), and getYaw() until we find ideal value ranges for them and then we program those ranges in if-statements.
 
 ### Sample Code of this Method 
-The range of -2 to 2 for roll, pitch, and yaw are the ranges of angles that the robot should be in
+The range of -2 to 2 for roll, pitch, and yaw are the ranges of angles that the robot should be in. Also, the function is moveRobotCentric() because depending on where the robot is facing, it should move all around the charging station accordingly to adjust for the imbalance. To clarify, moveRobotCentric() is to have the robot move relative to the direction it is facing and moveFieldCentric() is to have the robot move relative to the direction of the field (which means that no matter which way the robot is facing, the robot will move the same way if you hold down move forward).
 
 ```java
 private void balance() {
